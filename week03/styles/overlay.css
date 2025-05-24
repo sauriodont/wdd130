@@ -27,6 +27,10 @@ h1 {
 	object-fit: cover;
 }
 
+body {
+    font-family: 'Brush Script MT';
+}
+
 .stats {
 	position: absolute;
     bottom: 25px;

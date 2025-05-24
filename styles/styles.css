@@ -36,7 +36,13 @@ aside{
     background-color: #eee;
     color: #333;
     text-align: center ;
+    position: relative;
 
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
 }
 aside img{
     width:  200px;
@@ -51,7 +57,7 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
 }
-/* Class Selector */
+/* Class Selectors*/
 .box{
     margin: 1rem;
     border: 1px solid rgb(0 0 0 /10%);

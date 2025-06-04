@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+
+.roboto-text> {
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	font-variation-settings:"wdth";
+    }
+
+h1{
+    font-family: "rowdies", sans-serif;
+    text-align: center;
+	font-size: 1.3em;
+    color: navy;
+	text-shadow: 3px 3px 5px #777;
+    margin: 1rem;    
+    }
+
+body{
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    color:#333;
+    background: #fff;
+        
+    }
+
+header{
+    margin: 0 auto;
+    width: 650px;
+    }
+
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #eee;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    display: grid;
+    
+    }
+legend{
+    padding: 0.5rem;
+    color:navy;
+    font-size: 1.3rem;
+    }
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 3px solid rgba(243, 8, 8, 0.2);
+    padding: 1rem;
+    }
+
+footer{
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+    }
+
+label, input{
+    color: navy;
+    font-family: "Roboto";
+    
+    }
+
+button{
+    background-color: rgb(236, 212, 243);
+    margin: 1rem;
+    background-color: rgb(244, 100, 117);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    }
+
+button:hover{
+        background-color: darkgreen;
+    }
+
+label, input, button, select, textarea {
+    font-family: roboto, arial, sans-serif;
+    
+    }
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    }
+
+input[type="checkbox"]{
+   width: 22px;
+   height: 22px; 
+   vertical-align: bottom;
+    }
+
+.form-item {
+    display: grid;
+    align-items: center;
+    } 
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+    }
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    }

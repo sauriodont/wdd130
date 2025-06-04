@@ -1,0 +1,96 @@
+:root{
+    --persian-blue: #072ac8ff;
+    --dodger-blue: #1e96fcff;
+    --uranian-blue: #a2d6f9ff;
+    --aureolin: #fcf300ff;
+    --mikado-yellow: #ffc600ff;
+    --heading-font: "Dancing+Script", sans-serif;
+    --body-font: "roboto", sans-serif;
+  } 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1, h2, h3, h4, h5, h6 {font-family: "Dancing+Script";}
+header{
+
+    background-color: var(--dodger-blue);
+    color: var(--persian-blue);
+
+  }
+body{
+    font-family: var(--body-font);
+    color: var(--persian-blue);
+
+  }
+
+header, main, footer{
+    width: 840px;
+    margin: 0 auto;
+  }
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--persian-blue);
+  }
+nav, p, section, article{
+
+    margin: 16px;
+    padding: 8px;
+  }
+.socialmedia a {
+    text-decoration: none;
+  }
+ .hero{
+  position: relative;
+  }
+
+.hero img{
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  }
+
+h1{
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--aureolin);
+  color: #050000;
+  }
+.hero article img {
+  float: right;
+  width: 125px;
+  }
+.article{
+  position: absolute;
+  }
+  .panel {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between; 
+    }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 150px;
+    font-family: roboto, sans-serif;
+    gap: 20px;
+    padding: 10px;
+ }
+ .socialmedia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px; /* Espacio entre las imágenes */
+  margin-left: auto; /* Alinea las imágenes al lado derecho */
+}
+
+  

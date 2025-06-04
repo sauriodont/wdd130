@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form User Poll</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poetsen+One&family=Roboto:ital,wdth@0,75..100;1,75..100&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Marco Salazar | HTML Form User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend> Contact Information</legend>
+                <div class="form-item"></div>
+                    <div class="form-item column2">
+                        <label for="fullname">Fullname:</label><br>
+                        <input type="text" id="fullname" name="fullname"><br>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="fullname">E-mail Address:</label><br>
+                        <input type="email" id="useremail" name="useremail"><br>
+                    </div>
+                </div>
+                </fieldset>
+            <fieldset>
+            <div class="column1">
+                <legend>Questions</legend>
+                <label for="browser">What's your favorite browser?:</label><br>
+                <select name="browser" id="browser">
+                    <option value="Safari"> safari</option>
+                    <option value="Edge">Edge</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Mozilla">Mozilla</option>
+                    <option value="Opera">Opera</option>
+                </select>
+            </div>
+            <div class="column1">
+                <label for="pet">Do you have a household pet?:</label><br>
+                <input type="checkbox" name="pet" id="pet">
+            </div>
+                <label for="feedback">List the places you have lived:</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Venezuela, Brasil, Colombia, Guyana"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>copyright 2025 | HTML Form | User poll activity | Marco Salazar</p>
+    </footer>
+</body>
+</html>

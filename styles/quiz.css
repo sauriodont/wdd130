@@ -1,0 +1,66 @@
+body{
+    font-family:"Dancing+Script";
+    font-size: 1.2rem;
+    color:#333;
+    background: #fff;     
+    }
+
+header{
+    margin: 0 auto;
+    width: 650px;
+    }
+
+h1{
+    font-family: "rowdies", sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+    color: navy;
+    text-shadow: 3px 3px 5px #777;
+    margin: 1rem;    
+    }
+ol::marker {
+        color: blue;
+        font-weight: bold;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #eee;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+
+    }
+    fieldset {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px solid rgba(243, 8, 8, 0.2);
+        padding: 3rem;
+
+        }
+
+button{
+    background-color: rgb(236, 212, 243);
+    margin: 1rem;
+    background-color: rgb(63, 3, 214);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 15rem;
+    }
+
+    button:hover{
+        background-color: white;
+        color: rgb(63, 3, 214);
+    }
+q1{
+    padding: 10rem;
+}  
+          

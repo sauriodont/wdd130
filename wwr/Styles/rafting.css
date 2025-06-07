@@ -134,6 +134,71 @@ th,td {
     width: 650px;
     text-align: left;
   }
+  form{
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #eee;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    display: grid;
+    }
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 3px solid rgba(243, 8, 8, 0.2);
+    padding: 1rem;
+    }
+
+.form-item.column2 input[type="radio"] {
+    margin-left: 15px;
+    transform: scale(1.5);
+    margin-right: 10px;
+    }
+.form-item.column2 input[type="checkbox"] {
+  margin-left: 15px;
+  transform: scale(2);
+  margin-right: 10px;
+  }
+
+#feedback {
+    display: block;
+    margin-top: 10px;
+    width: 500px;
+    margin-bottom: 20px;
+    }
+
+label[for="feedback"] {
+    display: block;
+    margin-top: 20px;
+    }
+
+#subscribe {
+    margin-top: 10px;
+    }
+
+label[for="subscribe"] {
+    display: block;
+    margin-top: 10px;
+    }
+button{
+    background-color: rgb(236, 212, 243);
+    margin: 1rem;
+    background-color: rgb(244, 100, 117);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    }
+
+button:hover{
+    background-color: darkgreen;
+    }
+
+
 
   
 

@@ -252,6 +252,9 @@ button:hover{
     align-items: center;
     margin: 0 10px;
     }
+.indexform{
+   margin-top: 20px;
+}
 
 .partnership a {
     position: relative;

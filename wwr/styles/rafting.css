@@ -260,25 +260,26 @@ button:hover{
     flex-direction: column;
     text-align: center;
     }
-    .gif {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+
+.gif {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     }
-    
-    .gif a img {
-        width: 240px;
-        height: 144px;
-        border-radius: 10px;
-        border: 2px solid #007BFF;   
+
+.gif a img {
+    width: 240px;
+    height: 144px;
+    border-radius: 10px;
+    border: 2px solid #007BFF;   
     }
-    
-    .texto p {
-        text-align: justify;
-        font-size: 16px;
-        max-width: 550px;
-        line-height: 1.5;
-        margin: 0;
+
+.texto p {
+    text-align: justify;
+    font-size: 16px;
+    max-width: 550px;
+    line-height: 1.5;
+    margin: 0;
     }
 
   

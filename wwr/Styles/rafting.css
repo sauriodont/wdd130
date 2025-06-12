@@ -7,11 +7,19 @@
     --heading-font: "Poetsen+One", sans-serif;
     --body-font: "roboto", sans-serif;
     }
-     
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    }
+.menu a:hover{
+    background-color:#f9b0b0;
+    font-weight: bold;
+    color: white;
+    padding: 8px 18px;
+    font-weight: bold;
+    border-radius: 5px;  
     }
 
 header{
@@ -96,8 +104,10 @@ h1, h2{
     color: black;
     padding: 8px 18px;
     border-radius: 5px;
-
     }
+
+/* footer */
+
 .socialmedia {
     display: flex;
     flex-direction: row;
@@ -221,16 +231,55 @@ button:hover{
     background-color: darkgreen;
     }
 
-.menu a:hover{
-    background-color:#f9b0b0;
-    font-weight: bold;
-    color: white;
-    padding: 8px 18px;
-    font-weight: bold;
-    border-radius: 5px;  
+
+ /* home */
+ .partnership {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
     }
 
+.partnership a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden; 
+    border: 2px solid #007BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    }
 
+.partnership a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    }
+    .gif {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .gif a img {
+        width: 240px;
+        height: 144px;
+        border-radius: 10px;
+        border: 2px solid #007BFF;   
+    }
+    
+    .texto p {
+        text-align: justify;
+        font-size: 16px;
+        max-width: 550px;
+        line-height: 1.5;
+        margin: 0;
+    }
 
   
 

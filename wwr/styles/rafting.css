@@ -13,6 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     }
+
 .menu a:hover{
     background-color:#f9b0b0;
     font-weight: bold;
@@ -21,10 +22,11 @@
     font-weight: bold;
     border-radius: 5px;  
     }
-    header, main, footer{
-        width: 840px;
-        margin: 0 auto;
-        }
+
+header, main, footer{
+    width: 840px;
+    margin: 0 auto;
+    }
 
 header{
     background-color: var(--dodger-blue);
@@ -56,10 +58,19 @@ nav, p, section, article{
     width: 100%;
     height: auto;
     }
+
+.hero2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    }
+
 .business-hours{
     background-color: var(--uranian-blue);
     font-weight: bold;
     }
+
 h1, h2{
     font-family: var(--heading-font);
     color: var(--persian-blue);
@@ -252,9 +263,10 @@ button:hover{
     align-items: center;
     margin: 0 10px;
     }
+    
 .indexform{
-   margin-top: 20px;
-}
+    margin-top: 20px;
+    }
 
 .partnership a {
     position: relative;
@@ -285,7 +297,32 @@ button:hover{
     line-height: 1.5;
     margin: 0;
     }
+ /* trips */
+.packages{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px; 
+    }
 
+.hero3{
+    position: relative;
+
+    }
+
+.hero3 img{
+
+    display: block; /* Makes the image a block element */
+    margin-left: auto; /* Centers the block element horizontally */
+    margin-right: auto; /* Centers the block element horizontally */
+
+    width: 80%;
+    height: auto;    
+    border-radius: 5px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    }
   
 
   
